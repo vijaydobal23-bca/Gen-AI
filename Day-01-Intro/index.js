@@ -23,7 +23,8 @@ const response = await openAiModel.responses.create({
   {role:"developer",content:"give an example in js"},
   {role:"user" ,content:"what is coading"}
   
- ]
+ ],
+ model:"chatgpt-4o-latest"
 });
  
 console.log(response.output_text);

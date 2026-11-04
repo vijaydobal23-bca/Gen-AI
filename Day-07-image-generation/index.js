@@ -11,7 +11,7 @@ const ai = new GoogleGenAI({
 async function generateImage() {
   try {
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash-image",
+      model: "gemini-2.5-flash",
       contents: "A cute orange cat wearing sunglasses sitting on a beach at sunset",
     });
 
